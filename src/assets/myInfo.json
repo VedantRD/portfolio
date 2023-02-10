@@ -1,0 +1,114 @@
+{
+    "home": {
+        "name": "Vedant Debadwar",
+        "designation": "Full Stack Developer",
+        "intro": "I am greatly influenced by the web technologies and have good experience working with them. A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product."
+    },
+    "about": {
+        "intro": "I'm Vedant Rajesh Debadwar. Final year Computer Science B.tech student studying in MGM's College Of Engineering,Nanded. I'm in Final Year B.tech Computer Science Branch.",
+        "skills": [
+            "Python",
+            "Javascript",
+            "HTML",
+            "CSS",
+            "SQL",
+            "React JS",
+            "React Native",
+            "Node JS",
+            "Express JS",
+            "Bootstrap",
+            "Mongo DB",
+            "MySQL",
+            "Git & Github"
+        ],
+        "education": {
+            "college": "MGM's College Of Engineering, Nanded",
+            "year": "2017 - 2021",
+            "cgpa": 8.75,
+            "branch": "Computer Science",
+            "degree": "B.Tech"
+        }
+    },
+    "projects": [
+        {
+            "name": "FinEasy",
+            "description_list": [
+                "Finance Calculator android app developed using MERN stack and react native. Firebase is used for data analytics and ads",
+                "App is published on playstore."
+            ],
+            "technologies": [
+                "React Native",
+                "Node",
+                "Mongo DB",
+                "Firebase"
+            ],
+            "Link": "https://play.google.com/store/apps/details?id=com.fineasy.finance.calculator"
+        },
+        {
+            "name": "Insta Clone",
+            "description_list": [
+                "It is social networking site developed using MERN stack. It is currently hosted on Heroku.",
+                "Android app is developed using React Native."
+            ],
+            "technologies": [
+                "React",
+                "React Native",
+                "Node",
+                "Mongo DB"
+            ],
+            "Link": "https://vd-insta.herokuapp.com/"
+        },
+        {
+            "name": "Insta Clone",
+            "description_list": [
+                "It is social networking site developed using MERN stack. It is currently hosted on Heroku.",
+                "Created its android application using React Native."
+            ],
+            "technologies": [
+                "React",
+                "React Native",
+                "Node",
+                "Mongo DB"
+            ],
+            "Link": "https://vd-insta.herokuapp.com/"
+        }
+    ],
+    "experience": [
+        {
+            "company_name": "Infosys",
+            "designation": "DIGITAL SPECIALIST ENGINEER",
+            "year": "Aug 2021 - Present",
+            "description_list": [
+                "Full Stack Developer - React, Angular, Node, MySQL",
+                "Responsibilities - Develop new functionality and features inline with business requirements.",
+                "Ensured performance, quality and responsiveness of application."
+            ]
+        },
+        {
+            "company_name": "Tyke",
+            "designation": "WEB DEVELOPMENT INTERN",
+            "year": "Mar 2021 - Jun 2021",
+            "description_list": [
+                "Technology - React JS, Node JS",
+                "Built the logic for investor profile verification.",
+                "Improved website UI and responsiveness."
+            ]
+        },
+        {
+            "company_name": "Food Bots",
+            "designation": "WEB DEVELOPMENT INTERN",
+            "year": "Jun 2020 - Aug 2020",
+            "description_list": [
+                "Technology - React JS, Bootstrap",
+                "Redesigned UI and improved user experience on application"
+            ]
+        }
+    ],
+    "contact": {
+        "email": "vedant.debadwar@gmail.com",
+        "phone": 9422965894,
+        "github": "https://github.com/VedantRD",
+        "linkedin": "https://www.linkedin.com/in/vedant-debadwar-801264178/",
+        "instagram": "https://www.instagram.com/vedant_rd/"
+    }
+}
