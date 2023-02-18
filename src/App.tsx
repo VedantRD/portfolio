@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='app'>
       <MyNavbar />
-      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" className="main scrollspy-example" tab-index="0">
+      <div className="main" data-bs-spy="scroll" data-bs-target="my-navbar" data-bs-offset="-50" data-bs-smooth-scroll="true" tab-index="0">
         <div id="home"><Home /></div>
         <div id="about"><About /></div>
         <div id="experience"><Experience /></div>

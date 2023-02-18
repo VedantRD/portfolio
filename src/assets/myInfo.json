@@ -31,46 +31,65 @@
     },
     "projects": [
         {
-            "name": "FinEasy",
+            "name": "FinEasy - Finance Calculator",
             "description_list": [
-                "Finance Calculator android app developed using MERN stack and react native. Firebase is used for data analytics and ads",
+                "A financial calculator exclusively for Indians with the schemes available in Indian Banks, Post Office, Mutual Funds, Retirement, Income Tax, Insurance, Bonds and much more.",
                 "App is published on playstore."
             ],
             "technologies": [
                 "React Native",
                 "Node",
-                "Mongo DB",
+                "MongoDB",
                 "Firebase"
             ],
-            "Link": "https://play.google.com/store/apps/details?id=com.fineasy.finance.calculator"
+            "github": "https://play.google.com/store/apps/details?id=com.fineasy.finance.calculator",
+            "link": "https://play.google.com/store/apps/details?id=com.fineasy.finance.calculator"
         },
         {
-            "name": "Insta Clone",
+            "name": "VD Insta - Instagram Clone",
             "description_list": [
-                "It is social networking site developed using MERN stack. It is currently hosted on Heroku.",
-                "Android app is developed using React Native."
+                "Social networking site where you get features like follow/unfollow, send posts, like and comment on posts etc. It is currently hosted on Heroku.",
+                "I also created its android application using React Native."
             ],
             "technologies": [
                 "React",
                 "React Native",
                 "Node",
-                "Mongo DB"
+                "MongoDB"
             ],
-            "Link": "https://vd-insta.herokuapp.com/"
+            "github": "https://play.google.com/store/apps/details?id=com.fineasy.finance.calculator",
+            "link": "https://vd-insta.herokuapp.com/"
         },
         {
-            "name": "Insta Clone",
+            "name": "Medibot - Healthcare Chatbot",
             "description_list": [
-                "It is social networking site developed using MERN stack. It is currently hosted on Heroku.",
-                "Created its android application using React Native."
+                "It is android application which includes chatbot which is used to get information related to diseases such as symptoms, preventive measures, transmission information, etc.",
+                "Added feature to upload user's medical report in PDF form so that user can access them whenever required."
+            ],
+            "technologies": [
+                "React Native",
+                "Node",
+                "DialogFlow",
+                "MongoDB"
+            ],
+            "github": "https://play.google.com/store/apps/details?id=com.fineasy.finance.calculator",
+            "link": "https://vd-insta.herokuapp.com/"
+        },
+        {
+            "name": "E-Commerce Website",
+            "description_list": [
+                "Created a ecommerce website where sellers can do registration and list their producs for sell.",
+                "Buyers can signup on site. they can search products, apply filters and buy them."
             ],
             "technologies": [
                 "React",
-                "React Native",
                 "Node",
-                "Mongo DB"
+                "Express",
+                "Bootstrap",
+                "MongoDB"
             ],
-            "Link": "https://vd-insta.herokuapp.com/"
+            "github": "https://play.google.com/store/apps/details?id=com.fineasy.finance.calculator",
+            "link": "https://vd-insta.herokuapp.com/"
         }
     ],
     "experience": [

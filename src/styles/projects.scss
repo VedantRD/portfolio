@@ -8,6 +8,15 @@
     font-size: 25px;
 }
 
+.project-link-a {
+    color: inherit;
+}
+
 .project-link-icon {
     font-size: 25px;
+}
+
+.project-link-icon:hover {
+    color: $primary-color;
+    cursor: pointer;
 }

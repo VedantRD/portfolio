@@ -19,8 +19,10 @@ const Projects = () => {
                                             <div className='mb-3 d-flex justify-content-between align-items-center'>
                                                 <i className='bi bi-folder project-icon text-primary'></i>
                                                 <div>
-                                                    <i className="bi-github project-link-icon"></i>
-                                                    <i className="bi-box-arrow-up-right project-link-icon ms-3"></i>
+                                                    {/* <i className="bi-github project-link-icon"></i> */}
+                                                    <a className='project-link-a' href={project.link} target="_blank">
+                                                        <i className="bi-box-arrow-up-right project-link-icon ms-3"></i>
+                                                    </a>
                                                 </div>
                                             </div>
                                             <h1 className='header-2 mb-3'>{project.name}</h1>

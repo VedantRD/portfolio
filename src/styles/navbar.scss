@@ -5,6 +5,14 @@
     min-height: $navbar-height;
 }
 
+.nav-link.active {
+    border-bottom: 2px solid;
+    border-color: $primary-color;
+    border-radius: 0px;
+    color: $primary-color !important;
+}
+
+
 @media only screen and (max-width: 600px) {
     .my-navbar {
         border: none !important;

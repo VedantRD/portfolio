@@ -1,12 +1,12 @@
 import { Navbar, Nav } from 'react-bootstrap';
-import Scrollspy from 'react-scrollspy'
 
 const MyNavbar = () => {
   return (
-    <Navbar fixed='top' bg="dark" variant="dark" className='my-navbar px-2 px-lg-5' expand="md" collapseOnSelect>
+    <Navbar fixed='top' bg="dark" variant="dark" className='my-navbar px-3 px-lg-5' expand="md" collapseOnSelect>
+      <Navbar.Brand className='text-primary fw-bold header-2'>{'< VD />'}</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ms-auto" id="navbar-example2">
+        <Nav className="ms-auto" id="my-navbar">
           <Nav.Link href="#home" className='text ms-2 ms-lg-3'>Home</Nav.Link>
           <Nav.Link href="#about" className='text ms-2 ms-lg-3'>About</Nav.Link>
           <Nav.Link href="#experience" className='text ms-2 ms-lg-3'>Experience</Nav.Link>
@@ -15,26 +15,6 @@ const MyNavbar = () => {
         </Nav>
       </Navbar.Collapse>
     </Navbar >
-    // <nav id="navbar-example2" className="navbar bg-light px-3 mb-3 fixed-top">
-    //   <a className="navbar-brand">Navbar</a>
-    //   <ul className="nav nav-pills">
-    //     <li className="nav-item">
-    //       <a className="nav-link" href="#home">First</a>
-    //     </li>
-    //     <li className="nav-item">
-    //       <a className="nav-link" href="#about">Second</a>
-    //     </li>
-    //     <li className="nav-item dropdown">
-    //       <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Dropdown</a>
-    //       <ul className="dropdown-menu">
-    //         <li><a className="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-    //         <li><a className="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-    //         {/* <li><hr className="dropdown-divider"></li> */}
-    //         <li><a className="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
-    //       </ul>
-    //     </li>
-    //   </ul>
-    // </nav>
   )
 }
 

@@ -4,7 +4,7 @@ import variables from '../styles/export_variables.module.scss';
 const Contact = () => {
     return (
         <div className='page-container'>
-            <div className='w-100 justify-content-between d-flex flex-column' style={{ minHeight: 'inherit' }}>
+            <div className='w-100 justify-content-between d-flex flex-column'>
                 {/* upper content */}
                 <div>
                     <h1 className='header-1 text-center'>Reach Me At</h1>

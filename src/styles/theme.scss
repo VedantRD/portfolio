@@ -47,13 +47,22 @@
     left: 50px;
 }
 
+// .social-icon-a{
+
+// }
+
 .social-icon {
     font-size: 20px;
     cursor: pointer;
 }
 
-.social-icon:hover {
+.social-icon-a:hover {
     transform: translateY(-10%);
+    color: $primary-color !important;
+}
+
+.social-icon:hover {
+    // transform: translateY(-10%);
     color: $primary-color !important;
 }
 
