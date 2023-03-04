@@ -9,9 +9,9 @@ import Projects from './pages/Projects';
 
 function App() {
   return (
-    <div className='app'>
+    <div className='app' data-bs-spy="scroll" data-bs-target="my-navbar" data-bs-smooth-scroll="true" tab-index="0">
       <MyNavbar />
-      <div className="main" data-bs-spy="scroll" data-bs-target="my-navbar" data-bs-offset="-50" data-bs-smooth-scroll="true" tab-index="0">
+      <div className="main">
         <div id="home"><Home /></div>
         <div id="about"><About /></div>
         <div id="experience"><Experience /></div>
