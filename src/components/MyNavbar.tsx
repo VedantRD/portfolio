@@ -7,11 +7,11 @@ const MyNavbar = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ms-auto" id="my-navbar">
-          <Nav.Link href="#home" className='text ms-2 ms-lg-3'>Home</Nav.Link>
-          <Nav.Link href="#about" className='text ms-2 ms-lg-3'>About</Nav.Link>
-          <Nav.Link href="#experience" className='text ms-2 ms-lg-3'>Experience</Nav.Link>
-          <Nav.Link href="#projects" className='text ms-2 ms-lg-3'>Projects</Nav.Link>
-          <Nav.Link href="#contact" className='text ms-2 ms-lg-3'>Contact</Nav.Link>
+          <a href="#home" className='nav-link text ms-2 ms-lg-3'>Home</a>
+          <a href="#about" className='nav-link text ms-2 ms-lg-3'>About</a>
+          <a href="#experience" className='nav-link text ms-2 ms-lg-3'>Experience</a>
+          <a href="#projects" className='nav-link text ms-2 ms-lg-3'>Projects</a>
+          <a href="#contact" className='nav-link text ms-2 ms-lg-3'>Contact</a>
         </Nav>
       </Navbar.Collapse>
     </Navbar >
